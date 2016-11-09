@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+ 
+        
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        
+        <link rel="stylesheet" href="js/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">
+        <script src="js/jquery-1.11.0.js"></script>
+        <script src="js/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        
+    </head>
+    <body>
+        <div data-role= "page" id="pageone">
+            <div data-role="main" class="ui-content">
+                        <div data-role="header">
+                            <h1>Pagina Inicial</h1>
+                            <a href="#myPanel" data-icon="bars" data-iconpos="notext">Menu</a>
+                        </div>
+                
+                
+                
+                <div data-role="panel" data-position="left" data-position-fixed="true" data-display="overlay" id="myPanel">
+                <ul data-role="listview">
+                    <li data-icon="delete"><a href="#" data-rel="close">Cierra Menu</a></li>
+                        <li><a href="#" onclick="tomaFoto();">Hacer Foto</a></li>
+                        
+            </ul>   
+                </div>
+       
+            </div> <!--*** Fin Main Page One-->
+        </div>  <!--*** Fin Page One-->
+        
+        
+      
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
